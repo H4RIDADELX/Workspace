@@ -1,0 +1,15 @@
+LABEL ANTES DO INPUT
+value= alterar o valor
+radio-unica escolha
+checkbox-multipla escolha
+
+datalist=pesquisa
+select=srool para pesquisar
+
+value= valor para banco de dandos
+
+24/08
+<table>
+tr
+th
+td

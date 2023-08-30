@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="mailto:alunoios@gmail.com" method="post">
+      <label for="">Nome Usuario</label>
+      <input type="text"required>
+      <br />
+      <label for="">Numero de telefone</label>
+      <input type="number" />
+      <br />
+      <label for="">CEP</label>
+      <input type="number" />
+      <input value="cadastre-se" type="submit" />
+      <br />
+      <fieldset>
+        <legend>Escolha sua Musica</legend>
+      <input type="radio" name="Musica" />
+      <label for="">vai novinha</label>
+      <br />
+      <input type="radio" name="Musica" />
+      <label for="">ilha bella</label>
+      <br />
+      <input type="radio" name="Musica" />
+      <label for="">Essencia de Cria </label>
+      <br />
+      <input type="radio" name="Musica" />
+      <label for="">Camisa 10 </label>
+    </fieldset>
+      <br />
+      <h4>Sabores de Pipoca</h4>
+      <input type="checkbox" />
+      <label for="">Doce</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Salgado</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Chocolate</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">Sazon</label>
+      <br />
+      <input type="checkbox" />
+      <label for="">manteiga</label>
+      <br />
+      <!-- tipo range -->
+      <label for="">05</label>
+      <input type="range" />
+      <label for="">100</label>
+      <br />
+      <!-- tag select -->
+      <label for="">Sorvete</label>
+      <select name="" id="">
+        <option value="Selecione">Selecione</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Morango">Morango</option>
+        <option value="Maracuja">Maracuja</option>
+        <option value="Baunilha">Baunilha</option>
+        <option value="Napolitano">Napolitano</option>
+      </select>
+      <br /><br />
+      <!-- datalist -->
+      <label for="">Filmes</label>
+      <input type="text" list="Filmes" />
+      <datalist id="Filmes">
+        <option value="Avatar">Avatar</option>
+        <option value="Oppenheimer">Oppenheimer</option>
+        <option value="Homem Aranha">Homem Aranha</option>
+        <option value="Super Mario">Super Mario</option>
+      </datalist>
+      <br /><br /><br />
+      <!-- textarea -->
+      <!-- cols:colunas -->
+      <!-- rows:linhas -->
+      <fieldset>
+        <legend>Fale sobre o seu filme favorito</legend>
+        <label for="">Filmes</label>
+        <input type="text" name="" id="" />
+        <textarea name="" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Fala sobre o seu show preferido da Xuxa</legend>
+        <label for="">O Show da Xuxa</label>
+        <input type="text" name="" id="" />
+        <textarea name="" cols="30" rows="10"></textarea>
+      </fieldset>
+      <input value="cadastre-se" type="submit" />
+    </form>
+  </body>
+</html>
