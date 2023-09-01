@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(212, 129, 238);
+    color: rgb(240, 240, 240);
+}
+
+h2, h3{
+    color: rgb(58, 8, 151);
+}
+footer{
+    background-color: rgb(193, 150, 228);
+    color: brown;
+}
+p{
+  color: rgb(174, 43, 226);  
+}
