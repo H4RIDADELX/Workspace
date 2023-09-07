@@ -1,0 +1,39 @@
+body{ 
+    background-color: rgba(0, 255, 242, 0.233);
+}
+
+.conjunto1{
+    color: rgb(1, 79, 247);
+}
+.conjunto2{
+ background-color: orange;
+}
+
+
+
+
+/* Comentario em bloco */
+/* Trabalhando com IDs*/
+/* p{
+    color: aqua;
+} */
+
+#doce{
+    color: gold;
+}
+#rosa{
+    color: rgb(24, 21, 221);
+}
+/* div .green{ 
+    color: green;
+}*/
+*{
+    background-color: rgb(255, 255, 255);
+}
+section p{
+    color: blue;
+}
+section #amarelo{
+    color: darkred;
+}
+

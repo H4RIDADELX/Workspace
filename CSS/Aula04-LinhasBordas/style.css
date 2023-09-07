@@ -1,0 +1,19 @@
+#primeiraDiv{
+    /*1 grossura da borda/ 2 estilo borda/ 3 cor da borda */
+    border: 2px dashed #FF00FF;
+}
+#segundaDiv{
+    border: 2px dotted rgb(0,128,128);
+}
+/* Ajustando Largura e altura da imagem */
+img{
+    width: 500px;/* largura */
+    height: 300px;/* altura */
+}
+body{
+    background-image: url(img/outrospace.jpg);
+    /* background-position: 100%; */
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background: size 1000em;
+}
