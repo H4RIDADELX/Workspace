@@ -7,10 +7,15 @@ body {
 header{
     background-color: #649ea7;
     text-align: center;
-    border: 1px #000000 solid;
+    border: 1px #000000 solid; 
 }
 table{
     border: 1px #000000 solid;
     background-color: #8fbfb9;
     font-weight: bold;
+    text-align: center;
+}
+img{
+    width: 500px;
+    height: 300px;
 }
