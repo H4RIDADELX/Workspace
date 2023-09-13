@@ -1,0 +1,18 @@
+div{
+    /* aplicando de forma individual */
+    border: 2px solid black;
+   /* margin-top: 10px;   topo =10xp */
+   /* margin-right: 20px; direita =50xp */
+    /*margin-bottom: 40px;  base =50xp */
+   /* margin-left: 20px;  esquerda =50xp */
+   /* aplicando de forma geral */
+    margin: 10px 50px 50px 50px;
+}
+/* colocar uma borda no paragrafo 1px solid cor de sua escolha */
+/* topo 2px /direita 4px/ base 7px/ esquerda 40px  */
+
+p{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+}
