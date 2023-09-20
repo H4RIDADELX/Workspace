@@ -10,12 +10,31 @@
 }
 
 /*16.2=32  */
-p{
+/* p{  */
     /* font-size: 2rem; */
-    background-color: aqua;
-    height: 50vh;
-    width: 50vw;
-}
+    /* background-color: aqua; */
+    /* height: 50vh; */
+    /* width: 50vw;*/ 
+/* } */
 /* vw =largura */
 /* vh = altura*/
 /* 500/50=250 */
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+#primeiraimg{
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+#paragrafo{
+    clear: none;
+}
+#segundaimg{
+   float:right;
+   width: 100px;
+    height: 100px;
+}
