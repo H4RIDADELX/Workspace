@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+#container{
+    display: grid;
+    /* grid-template-columns: 50px 50px 50px 50px; */
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: 40px; */
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-rows: auto;
+    grid-template-areas: "div4 div4 div4 div4 . div2" "div1 div3 div5 div6 div8 div7";
+    /* /"" são as linhas/ */
+
+}
+.item-1{
+    grid-area: div1;
+    border: 1px solid purple;
+}
+.item-2{
+    grid-area: div2;
+    border: 1px solid magenta ;
+}
+.item-3{
+    grid-area: div3;
+    border: 1px solid blueviolet ;
+}
+.item-4{
+    grid-area: div4;
+    border: 1px solid rgb(0, 247, 255);
+}
+.item-5{
+    grid-area: div5;
+    border: 1px solid orange ;
+}
+.item-6{
+    grid-area: div6;
+    border: 1px solid red ;
+}
+.item-7{
+    grid-area: div7;
+    border: 1px solid green ;
+}
+.item-8{
+    grid-area: div8;
+    border: 1px solid blue ;
+}
