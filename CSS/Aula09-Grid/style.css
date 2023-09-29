@@ -1,48 +1,57 @@
 body {
     background-color: black;
     color: aliceblue;
+    
 }
 
 #container{
     display: grid;
-    /* grid-template-columns: 50px 50px 50px 50px; */
-    grid-template-columns: repeat(6, 1fr);
-    /* grid-template-rows: 40px; */
+    grid-template-columns: 50px 50px 50px 50px;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-rows: 100px 100px; 
+    justify-content: center;
+    align-content: space-evenly;   /*é necessario definir uma altura height=vh */
+    /* justify-items: center;
+    align-items: center; */
     /* grid-template-rows: repeat(2, 1fr); */
-    grid-template-rows: auto;
-    grid-template-areas: "div4 div4 div4 div4 . div2" "div1 div3 div5 div6 div8 div7";
+    /* column-gap: 10px;  */  /* espaçamento entre colunas */
+    /* row-gap: 10px; */  /*espaçamenot entre linhas */ 
+    /* gap: 10px; */  /* espaçamento de linha e colunas de forma */
+    /* grid-template-rows: auto; */
+    grid-template-areas: "div4 div4 div4 div4 div2 div2" "div1 div3 div5 div6 div8 div7";
     /* /"" são as linhas/ */
+    height: 100vh;
 
 }
 .item-1{
-    grid-area: div1;
+    /* grid-area: div1; */
     border: 1px solid purple;
 }
 .item-2{
-    grid-area: div2;
+    /* grid-area: div2; */
     border: 1px solid magenta ;
 }
 .item-3{
-    grid-area: div3;
+    /* grid-area: div3; */
     border: 1px solid blueviolet ;
 }
 .item-4{
-    grid-area: div4;
+    /* grid-area: div4; */
     border: 1px solid rgb(0, 247, 255);
 }
 .item-5{
-    grid-area: div5;
+    /* grid-area: div5; */
     border: 1px solid orange ;
 }
 .item-6{
-    grid-area: div6;
+    /* grid-area: div6; */
     border: 1px solid red ;
 }
 .item-7{
-    grid-area: div7;
+    /* grid-area: div7; */
     border: 1px solid green ;
 }
 .item-8{
-    grid-area: div8;
+    /* grid-area: div8; */
     border: 1px solid blue ;
 }
