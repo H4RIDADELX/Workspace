@@ -36,14 +36,14 @@ var texto2 = "decorrentes do investimento em reciclagem técnica."
 var concatenar = texto1 + "\n" + texto2;
 console.log(concatenar)
 
-console.clear()
+// console.clear()
 
 var osDeVerdadeAgenteSabeQuemE = false;
 
 console.log("5" - 1 )
 console.log(1 +"5")
 
-console.clear()
+// console.clear()
 
 // incremento
 var incremento = 2;
@@ -57,7 +57,7 @@ var imparPar = 4%2;
 
 console.log("Se o resultado for 1 então o numero é impar se o resultado for 0 então é par, esse é o resultado = " + imparPar )
 
-console.clear()
+// console.clear()
 
 var comparacao = 2 < 3
 

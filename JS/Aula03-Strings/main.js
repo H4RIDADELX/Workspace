@@ -13,7 +13,7 @@ var numero2 = 3;
 console.log(`${numero1 + numero2 }`)
 console.log(numero1 + numero2)
 
-console.clear()
+// console.clear()
 
 const String01 = "Instituto da oportunidade Social"
 
@@ -22,13 +22,13 @@ console.log("Posicao 10 " + String01.charAt(10))
 
 console.log("Posicao 11 " + String01.charAt(11))
 
-console.clear()
+// console.clear()
 
 const String02 = "Instituto da oportunidade Social"
 
 console.log("Quantidade de caracteres: " + String02.length)
 
-console.clear()
+// console.clear()
 
 const String03 = "Instituto da oportunidade Social"
 
@@ -39,7 +39,7 @@ var sub = "Mozilla"
 console.log(sub.substring(2 ,7));
 console.log(sub.substring(5));
 
-console.clear()
+// console.clear()
 
 
 var trocaTexto = "Bem vindo ao jogo, Roblox";
@@ -49,7 +49,7 @@ let textoTrocado = trocaTexto.replace("Roblox", "KlebinhoJogador2028")
 console.log("Texto original: " + trocaTexto);
 console.log("Texto alterado: " + textoTrocado);
 
-console.clear()
+// console.clear()
 
 var retirandoEspacos = "         A vida é uma uva    "
 
