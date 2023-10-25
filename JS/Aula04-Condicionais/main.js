@@ -82,3 +82,14 @@ if(caminhoDasIndias == 9){
     }
 }
 
+let fase2 =70
+let fase3 =false
+let incricao = true
+
+if(inscricao ==true){
+    console.log(Parabens voce esta na fase 2);
+}if(fase2 >= 70){
+    console.log("QUESTIONARIO DE LOGICA E LEITURA")
+}else if (fase2 >= 65 || fase2 <= 69){
+    console.log
+}
