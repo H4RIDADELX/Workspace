@@ -75,7 +75,7 @@ let idade = 10
 
 if(caminhoDasIndias == 9){
     console.log("Você esta ficando velho")
-    if(idade == 27){
+    if(idade == 10){
         console.log("Cara,você esta com o pé na cova")
     }else{
         console.log("Você ainda está novo")
