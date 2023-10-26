@@ -82,14 +82,53 @@ if(caminhoDasIndias == 9){
     }
 }
 
-let fase2 =70
-let fase3 =false
-let incricao = true
+console.clear()
 
-if(inscricao ==true){
-    console.log(Parabens voce esta na fase 2);
-}if(fase2 >= 70){
-    console.log("QUESTIONARIO DE LOGICA E LEITURA")
-}else if (fase2 >= 65 || fase2 <= 69){
-    console.log
+let pipoca1 = 10
+let pipoca2 = 56
+
+if(pipoca1 > pipoca2){
+    console.log(pipoca + " é maior")
+}else{
+    console.log(pipoca2 + " é maior")
+}
+console.clear()
+
+pipoca1 > pipoca2 ? console.log(pipoca1 + " é maior") :
+console.log(pipoca2 + " é maior")
+
+console.clear()
+
+let mes = 5
+
+switch(mes){ //expressão
+    case  3:
+        console.log("Março")
+        break;
+    case  4:
+        console.log("Abril")
+        break;
+    case  10:
+        console.log("Outubro")
+        break;
+    case 12:
+        console.log("Dezembro")
+        break;
+    default:
+            console.log("Não encontrei esse mês")  
+        }
+
+
+        if (escopo){
+            
+        }
+    console.log(escopo)
+        
+
+switch(escopo){
+    case true:
+        console.log("Variavel escopo é global")
+        break;
+        default:
+            console.log("Não existe variavel")
 }
