@@ -1,30 +1,35 @@
-// Funções
-// function addNums(num1 = 1, num2 = 1) {
-//     return num1 + num2;
-//    }
-//    let x = addNums(4, 5); // Chamada da função addNums
-//    console.log(x);
-//    let z = myFunc(4, 5); // Chamada da função myFunc
-//    console.log(z);
-//    function myFunc(num1, num2) {
-//     return num1 * num2;
-//    }
+// Funções        4      5
+function somaNumeros(num1 = 0, num2 = 0, num3 = 0) {
+    return num1 + num2 + num3;
+}
 
+let x = somaNumeros(4, 5); // Chamada da função addNums
+console.log(x);
 
-//    function somaNumeros(num1=0, num2 =0 ,num3 = 0){
-//     return num1 + num2 + num3;
-//    }
-//    let x =somaNumeros(4, 5);// Chamada da função addNuns
-//    console.log(x);
+let soma = somaNumeros(10, 7, 3)
+console.log(" Essa é a variavel soma " + soma)
 
-//    let soma =somaNumeros(10,7,3);
-//    console.log("Essa é a variavel soma " + soma)
+console.clear()
 
-// const hello = () => {
-//     return 'Olá Arrow Function!';
-//    };
-//    console.log(hello())
-//    console.log(somaNumeros(4,8,8)
+let z = myFunc(4, 5); // Chamada da função myFunc
+console.log(z);
+
+function myFunc(num1, num2) {
+    return num1 * num2;
+}
+
+console.clear()
+
+const hello = () => {
+    return 'Olá Arrow Function!';
+};
+
+console.log(hello())
+console.log(somaNumeros(4, 8, 8))
+console.clear()
+
+// Função com IF
+// num % 2 == 0 Par   num % 2 == 1 Impar  
 
 function imparPar (num){
     if(num % 2 == 0){
@@ -45,7 +50,7 @@ console.log(receberSegundoNumero)
 var contexto = 5.75 % 2;
 console.log(contexto)
 
-console.clear()
+// console.clear()
 
 const celular = {
     marca: 'Apple',
