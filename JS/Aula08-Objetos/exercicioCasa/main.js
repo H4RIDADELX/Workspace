@@ -1,8 +1,11 @@
 function alertCookie(){
+    alert('Você quer um Cookie');
 }
-alert('Você quer um Cookie');
-console.log(alertCookie());
+console.log(alertCookie);
 
+function myFunc(valor1, valor2) {
+    return valor1 * valor2
+}
 
 const alertSucesso = () => {
     return 'Mensagem Gerada com Sucesso';
@@ -10,6 +13,10 @@ const alertSucesso = () => {
 // console.log(alertSucesso);
 alert('Mensagem Gerada com Sucesso');
 console.log(alertSucesso());
+
+function myFunc(valor1, valor2) {
+    return valor1 * valor2
+}
 
 const notebook = {
     marca: 'Lenovo',
