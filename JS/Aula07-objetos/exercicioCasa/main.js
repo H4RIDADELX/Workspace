@@ -44,4 +44,3 @@ console.log(retirarPosi)
 let notas =  alunos[5].nota
 console.log(notas)
 console.log(JSON.stringify(alunos))
- 
