@@ -1,4 +1,4 @@
-const arrayNumeros = [17, 43, 8, 4, 97, 56, 29];
+const numeros = [17, 43, 8, 4, 97, 56, 29];
 
 function verificaParOuImpar(numero) {
   if (numero % 2 === 0) {
@@ -8,23 +8,11 @@ function verificaParOuImpar(numero) {
   }
 }
 
-arrayNumeros.forEach(verificaParOuImpar);
+numeros.forEach(verificaParOuImpar);
 
 
-// function minhaFuncao (numero){
-//     if(numero % 2 == 0){
-//         return `O numero ${numero} é Par`;
-//     }else if(numero % 2 == 1){
-//         return `O numero ${numero} é Impar`
-//     }else{
-//         return 'Não consegui indentificar se é impar ou Par'
-//     }
-// }
-// let receberPrimeiroNumero = minhaFuncao()
-// console.log(receberPrimeiroNumero)
 
-// let receberSegundoNumero = minhaFuncao()
-// console.log(receberSegundoNumero)
+const numeros1 = [17, 43, 8, 4, 97, 56, 29, 3, 75, 34, 88, 82, 61];
+const valoresFiltrados = numeros1.filter(valor => valor >= 20 && valor <= 80);
 
-// var contexto = 5.75 % 2;
-// console.log(contexto)
+console.log(valoresFiltrados);

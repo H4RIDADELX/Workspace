@@ -32,7 +32,7 @@ const Nome = () => {
     let recebeNome = document.querySelector("#recebeNome");
     let mostraNome = document.querySelector('#mostraNome');
 
-    mostraNome.innerHTML = `Olá ${recebeNome.value} Bem-vindo a serie B`
+    mostraNome.innerHTML = `Olá ${recebeNome.value} Seja bem-vindo a nossa academia`
 }
 
 evento.addEventListener('click', Nome);
