@@ -65,5 +65,5 @@ class ContaBancaria {
 }
 
 // Exemplo de uso:
-const minhaConta = new ContaBancaria("João", 30, 5000, "Masculino", "1234", "56789", "Conta Poupança");
+const minhaConta = new ContaBancaria("Gabriel", 21, 2500, "Masculino", "4321", "98765", "Conta Corrente");
 minhaConta.contaPoupanca();
