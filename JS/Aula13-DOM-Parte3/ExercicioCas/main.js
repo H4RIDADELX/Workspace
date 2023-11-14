@@ -12,7 +12,7 @@ function adicionarImagem() {
     document.body.appendChild(imagem);
   
     // -cor de fundo -
-    document.body.style.backgroundColor = "#ADD8E6";
+    document.body.style.backgroundColor = "#FFFFF";
   
     const botao = document.getElementById("B_01");
     botao.style.border = "2px solid #D9BC66";
