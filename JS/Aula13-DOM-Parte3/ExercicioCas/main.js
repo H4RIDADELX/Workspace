@@ -1,63 +1,49 @@
+// Criação do label
+const label = document.createElement("label");
+label.setAttribute("for", "salarioAtual");
+label.textContent = "Salário Atual: ";
 
-let inserindo = false;
+// Criação do input
+const inputSalario = document.createElement("input");
+inputSalario.type = "text";
+inputSalario.id = "salarioAtual";
+inputSalario.placeholder = "Insira o salário atual";
 
+// Criação do botão
+const button = document.createElement("button");
+button.textContent = "Calcular Novo Salário";
+button.onclick = calcularNovoSalario;
 
+// Criação do parágrafo para exibir o resultado
+const resultadoElemento = document.createElement("p");
+resultadoElemento.id = "resultado";
 
-function adicionarImagem() {
-    // Criação da imagem
-    const imagem = document.createElement("img");
-    imagem.src = "img/umbrella.jpg";
-  
-    // imagem
-    document.body.appendChild(imagem);
-  
-    // -cor de fundo -
-    document.body.style.backgroundColor = "#FFFFF";
-  
-    const botao = document.getElementById("B_01");
-    botao.style.border = "2px solid #D9BC66";
-    botao.style.padding = "0.5rem";
-    botao.style.backgroundColor = "#BFBFBF";
-    botao.style.margin = "0.7rem";
-  }
-  function solicitarNome() {
-    // prompt
-    const nome = prompt("Digite seu nome:");
-  
-    //  usuário clicou em OK
-    if (nome !== null) {
-      const mensagem = document.createElement("p");
-      mensagem.textContent = `Olá ${nome}, bem-vindo à nossa academia`;
-  
-      // Inserção da mensagem
-      document.body.appendChild(mensagem);
-    }
-  }
-  
-  function exibirTabuada() {
-    // Solicitação do número via prompt
-    const numero = prompt("Digite um número para ver a tabuada:");
-  
-    // Verifica se o usuário clicou em OK e exibe a tabuada
-    if (numero !== null) {
-      const resultado = document.createElement("p");
-      resultado.textContent = `Tabuada do ${numero}:\n`;
-  
-      for (let i = 1; i <= 10; i++) {
-        const linha = `${numero} x ${i} = ${numero * i}\n`;
-        resultado.textContent += linha;
-      }
-  
-      // Inserção da tabuada abaixo do botão
-      document.body.appendChild(resultado);
-    }
+// Adição dos elementos ao corpo da página
+document.body.appendChild(label);
+document.body.appendChild(inputSalario);
+document.body.appendChild(button);
+document.body.appendChild(resultadoElemento);
+
+// Função para calcular o novo salário
+function calcularNovoSalario() {
+  // Obtém o valor inserido no input
+  const salarioAtual = parseFloat(inputSalario.value);
+
+  // Verifica se o valor inserido é válido
+  if (isNaN(salarioAtual) || salarioAtual <= 0) {
+    alert("Por favor, insira um valor válido para o salário atual.");
+    return;
   }
 
-function remove() {
-    document.body.innerHTML = '';
+  // Calcula o novo salário com o aumento de 17% e o reajuste anual
+  const aumentoPercentual = 17;
+  const reajusteAnual = 215;
+
+  const aumento = (salarioAtual * aumentoPercentual) / 100;
+  const novoSalario = salarioAtual + aumento + reajusteAnual;
+
+  // Exibe o resultado
+  resultadoElemento.textContent = `O novo salário é R$ ${novoSalario.toFixed(
+    2
+  )}`;
 }
-
-
-
-
-

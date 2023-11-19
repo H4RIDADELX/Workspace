@@ -16,7 +16,7 @@ function adicionarImagem() {
     // -cor de fundo -
     // document.body.style.backgroundColor = "#262525";
   
-    const botao = document.getElementById("B_01");
+    const botao = document.getElementsByClassName("B_12");
     botao.style.border = "2px solid #D9BC66";
     botao.style.padding = "0.5rem";
     botao.style.backgroundColor = "#BFBFBF";
