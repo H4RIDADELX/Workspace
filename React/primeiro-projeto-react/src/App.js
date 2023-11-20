@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import './App.css';
 import BoasVindas from './components/BoasVindas';
 import Exemplo from './components/Exemplo';
